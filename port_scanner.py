@@ -42,7 +42,7 @@ def scan_port(ipaddress, port_number):
 if __name__ == "__main__":
 
     targets = input("[+] Enter target(s) to scan : (split multiple targets with ,) : ")
-    port_number = int(input("[+] Please enter the number of ports you want to scan : "))
+    port_number = int(input("[+] Please enter the number of ports you want to scan (500 - First 500 ports) : "))
     if ',' in targets:
         for ip_add in targets.split(','):
             scan(ip_add.strip(' '), port_number)
