@@ -34,7 +34,7 @@ def scan_port(ipaddress, port_number):
             print(f'[+] Open Port {str(port_number)} : {srt(banner).decode().strip()}')
         except:
             # In case we don't get any baner
-            print(f'[+] OPen Port {str(port_number)} ')
+            print(f'[+] Open Port {str(port_number)} ')
     except:
         pass             
 
