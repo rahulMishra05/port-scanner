@@ -3,13 +3,13 @@
 A port scanner is a program that scans a target and tell us that whether the port is open or closed.\
 This is a port scanning python script which scan a given IP address or domain name, we can also give group of IP address and domain name to it for scanning.
 
-### Libraries
+### 🧱 Libraries
 
 In this script two known libraries are used.
 1. [Socket](https://docs.python.org/3/howto/sockets.html) :- Socket library is very known as used library. This library is used to estabilished connection over the internet.
 2. [IPy](https://pypi.org/project/IPy/) :- This library is used to handle the IP address.
 
-### How to use 
+### ⚒ How to use 
 
 In order to use this library please follow the below instructions.
 1. Clone this repository using terminal or git bash.
@@ -42,7 +42,7 @@ In order to use this library please follow the below instructions.
     ```
 8. Now if there is an open port present on the target or group of targets, it will show up.
 
-### Note
+### 💡 Note
 
 There are some points you should remember while using this script.
 1. While entering multiple targets IP address/domain name, make sure to seperate them using comma (,)
